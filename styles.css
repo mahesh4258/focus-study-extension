@@ -1,0 +1,35 @@
+body.focus-mode-active ytd-rich-grid-renderer,
+body.focus-mode-active ytd-browse[page-subtype="home"] #primary {
+    display: none !important;
+}
+
+
+body.focus-mode-active #related {
+    display: none !important;
+}
+
+body.focus-mode-active #secondary:not(:has(ytd-playlist-panel-renderer)) {
+    display: none !important;
+}
+
+body.focus-mode-active #comments:not(:has(#pinned-comment-badge)) {
+    display: none !important;
+}
+
+
+body.focus-mode-active ytd-reel-shelf-renderer,
+body.focus-mode-active a[title="Shorts"],
+body.focus-mode-active ytd-mini-guide-entry-renderer[aria-label="Shorts"] {
+    display: none !important;
+}
+
+
+body.focus-mode-active:not(:has(ytd-playlist-panel-renderer)) ytd-watch-flexy[flexy] #primary.ytd-watch-flexy {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    margin: 0 auto !important;
+    padding-right: 0 !important;
+}
+body.focus-mode-active:not(:has(ytd-playlist-panel-renderer)) #player-container-outer {
+    margin: 0 auto !important;
+}
