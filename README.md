@@ -1,6 +1,6 @@
 # 🎓 Focus Study - Distraction Free YouTube & Productivity Tool
 
-![Focus Study Banner](promo_tile.png) 
+![Focus Study Banner](icons/promo_tile.png)
 A powerful **Chrome Extension (Manifest V3)** designed to help students and professionals reclaim their focus. It transforms YouTube into a pure learning platform by removing algorithmic distractions and provides a built-in Pomodoro-style timer with website blocking capabilities.
 
 > **"Master your time, master your learning."**
